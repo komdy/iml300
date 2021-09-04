@@ -1,0 +1,198 @@
+
+/*---------FIRST PAGE CSS------------*/
+
+body.body1 {
+background-color: rgb(230, 226, 216); }
+
+h1 {font-family: 'Courier New', Courier, monospace;}
+
+.header1 {
+margin-top: 200px;
+}
+
+.p1 {
+  font-family:'Courier New', Courier, monospace ;
+  margin: 50px;
+}
+
+p {
+  font-family:'Courier New', Courier, monospace ;
+  font-size: small;
+}
+
+a {
+  font-family:'Courier New', Courier, monospace ;
+}
+
+div {
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 100px;
+} 
+
+#poo {
+  margin-top: 200px;
+ 
+}
+
+img.pic {
+  padding: 10px;
+}
+/* columns */
+
+.column {
+  float: left;
+}
+
+#column1 {
+  background-color: white;
+}
+
+.left {
+  width: 40%;
+  background-color: white;
+}
+
+.right {
+  width: 25%;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 100px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+/*---------FIRST PAGE CSS END------------*/
+
+/*---------PAGE 3 CSS START------------*/
+
+div.hehe {
+  margin-top: 200px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+
+}
+
+body.yeez {
+background-color: rgb(233, 166, 146);
+
+}
+
+/*---------PAGE 3 CSS END------------*/
+
+
+/*---------PAGE 5 CSS START------------*/
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/*---------PAGE 5 CSS END------------*/
+
+
+
+/* ---------PAGE 6 CSS START [LIVE]------------- */
+#bodylive {
+background-color: rgb(145, 163, 223);
+}
+
+#DIE1 
+{
+text-align: center;
+color:rgb(243, 184, 207);
+font-size: 100px;
+font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#a1 {
+  font-family: Haettenschweiler, 'Arial Bold', sans-serif;
+}
+
+
+
+/* visited link */
+#a1:visited {
+  color: rgb(36, 35, 122);
+}
+
+
+/* mouse over link */
+#a1:hover {
+  color: blue;
+}
+
+
+/* selected link */
+#a1:active {
+  color: yellow;
+}
+
+/* ---------LAST PAGE CSS------------- */
+
+#bodylast {
+background-color: black;
+}
+
+#DIE 
+{
+text-align: center;
+color:gray;
+font-size: 150px;
+font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Die2 {
+color:white;
+}
+
+#a11 {
+  font-family: Haettenschweiler, 'Arial Bold', sans-serif;
+}
+
+#a12 {
+  font-family: Haettenschweiler, 'Arial Bold', sans-serif;
+}
+
+#a13 {
+  font-family: Haettenschweiler, 'Arial Bold', sans-serif;
+}
+
+
+/* visited link */
+a:visited {
+  color:rgb(255, 157, 100);
+}
+
+#a11:visited {
+  color: rgb(36, 35, 122);
+}
+#a12:visited {
+  color: rgb(173, 31, 31);
+}
+#a13:visited {
+  color: rgb(255, 255, 255);
+}
+
+/* mouse over link */
+#a11:hover {
+  color: blue;
+}
+#a12:hover {
+  color: red;
+}
+#a13:hover {
+  color:rgb(204, 204, 204);
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
