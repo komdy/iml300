@@ -1,89 +1,165 @@
 
 /*---------FIRST PAGE CSS------------*/
 
-body.body1 {
-background-color: rgb(230, 226, 216); }
-
-h1 {font-family: 'Courier New', Courier, monospace;}
-
-.header1 {
-margin-top: 200px;
+body {
+  background-color: rgb(202, 5, 5);
 }
 
-.p1 {
-  font-family:'Courier New', Courier, monospace ;
-  margin: 50px;
+p{
+  font-family:monospace;
 }
-
-p {
-  font-family:'Courier New', Courier, monospace ;
-  font-size: small;
-}
-
-a {
-  font-family:'Courier New', Courier, monospace ;
-}
-
-div {
-  margin-top: 10px;
-  margin-bottom: 100px;
-  margin-right: 50px;
-  margin-left: 100px;
-} 
-
-#poo {
-  margin-top: 200px;
- 
-}
-
-img.pic {
-  padding: 10px;
-}
-/* columns */
-
-.column {
-  float: left;
-}
-
-#column1 {
-  background-color: white;
-}
-
-.left {
-  width: 40%;
-  background-color: white;
-}
-
-.right {
-  width: 25%;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 100px) {
-  .column {
-    width: 50%;
-  }
-}
-
 
 /*---------FIRST PAGE CSS END------------*/
 
+
+/*---------2nd PAGE CSS------------*/
+
+.body1 {
+  background-color: black;
+}
+
+#p1 {
+  color: white;
+}
+
+#p2 {
+  color: red;
+}
+
+#p3 {
+  color:black;
+}
+
+/*---------2nd PAGE CSS END------------*/
+
+
 /*---------PAGE 3 CSS START------------*/
+
+.imgpos {
+  position:absolute; 
+  left: 450px;
+  right:300px;
+  top:20px;
+}
+
+.imgpos1 {
+  position:absolute; 
+  left: 600px;
+  right:300px;
+  top:50px;
+}
+
+.caption {
+font-size: 13px;
+background-color: black;
+}
 
 div.hehe {
   margin-top: 200px;
   margin-top: 10px;
   margin-bottom: 100px;
-
 }
 
-body.yeez {
-background-color: rgb(138, 138, 138);
 
+body {
+  text-align: center;
+  display: grid;
+  height: 100vh;
+  font-size: 30px;
 }
+
+
+.center1 {
+  margin-top: 400px;
+}
+
+.center {
+  margin: auto;
+}
+
+details > summary {
+  list-style: none;
+  color: white;
+}
+
+#summary1 {
+  color: black;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  outline: none;
+}
+
+#giffy{
+    background:none;
+}
+
+#giffy:hover{
+    background:#0000ff;
+}
+
 
 /*---------PAGE 3 CSS END------------*/
 
+.yewwo {
+    background-color:burlywood;
+}
+
+
+/*page four*/
+
+#big {
+  font-size: 80px;
+  background-color:rgb(202, 5, 5);
+}
+
+/*---------USC PAGE (AFTER PAGE FOUR)------------*/
+
+.yay {
+position:fixed;
+  top:100px;
+   left: 10%;
+   right: 10%;
+  bottom: 50px;
+
+}
+
+.yay2 {
+position:fixed;
+  top:180px;
+  left: 60%;
+  bottom: 50px;
+
+}
+
+.yay3 {
+position:fixed;
+  top:380px;
+  left: 20%;
+  bottom: 10px;
+
+}
+
+#poop:hover {
+color: cornsilk;
+opacity: unset;
+} 
+
+.yea {
+  position:absolute;
+  top: 500px;
+  left: 60%;
+}
+
+.yea1 {
+  position:absolute;
+  top: 200px;
+  left: 60%;
+}
 
 /*---------PAGE 5 CSS START------------*/
 
@@ -95,20 +171,55 @@ background-color: rgb(138, 138, 138);
   min-height: 100%;
 }
 
+/* Add some content at the bottom of the video/page */
+.content {
+ position: absolute;
+  top: 50%;
+  left: 40px;
+  right: 40px;
+  color: #f1f1f1;
+  width: 100%;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5vw;
+}
+
+.content1 {
+ position: absolute;
+margin-top: 50px;
+}
+
+#peeeeeee {
+  color:white;
+  background-color:black;
+  opacity: 0.75;
+  align-content: left;
+  margin-left: 100px;
+  margin-bottom: 500px;
+  font-size: 1.2vw;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
 /*---------PAGE 5 CSS END------------*/
+
 
 
 
 /* ---------PAGE 6 CSS START [LIVE]------------- */
 #bodylive {
+background-image: url(asset/sky.jpeg);
+background-repeat:no-repeat;
+background-position: center;
+background-size.: cover;
 background-color: rgb(145, 163, 223);
+margin-bottom: 30px;
 }
 
 #DIE1 
 {
 text-align: center;
-color:rgb(243, 184, 207);
-font-size: 100px;
+color:rgb(255, 206, 149);
+font-size: 10vw;
 font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -116,17 +227,19 @@ font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-family: Haettenschweiler, 'Arial Bold', sans-serif;
 }
 
-
+a {
+  color:rgb(247, 188, 111);
+ }
 
 /* visited link */
 #a1:visited {
-  color: rgb(36, 35, 122);
+  color: rgb(255, 255, 255);
 }
 
 
 /* mouse over link */
 #a1:hover {
-  color: blue;
+  color: rgb(255, 210, 216);
 }
 
 
@@ -145,7 +258,7 @@ background-color: black;
 {
 text-align: center;
 color:gray;
-font-size: 150px;
+font-size: 12vw;
 font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -153,22 +266,14 @@ font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 color:white;
 }
 
-#a11 {
-  font-family: Haettenschweiler, 'Arial Bold', sans-serif;
-}
-
-#a12 {
-  font-family: Haettenschweiler, 'Arial Bold', sans-serif;
-}
-
-#a13 {
+#a11 #a12 #a13 {
   font-family: Haettenschweiler, 'Arial Bold', sans-serif;
 }
 
 
 /* visited link */
 a:visited {
-  color:rgb(255, 157, 100);
+  color:rgb(190, 77, 235);
 }
 
 #a11:visited {
@@ -183,16 +288,27 @@ a:visited {
 
 /* mouse over link */
 #a11:hover {
-  color: blue;
+  color: rgb(107, 192, 145);
 }
-#a12:hover {
-  color: red;
-}
-#a13:hover {
-  color:rgb(204, 204, 204);
+#a12:hover
+{
+  color: rgb(107, 192, 145);
 }
 
+#a13:hover {
+  color: rgb(107, 192, 145);
+}
 /* selected link */
 a:active {
   color: yellow;
+}
+
+#final {
+text-align: center;
+position:absolute;
+top: 50px;
+right: 200px;
+left:200px;
+background-color: white;
+
 }
