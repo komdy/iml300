@@ -1,4 +1,4 @@
-# Project 1 Title
+# Alienation
 
 ![demo](https://github.com/komdy/iml300/blob/main/project-1/asset/200.gif)
 
