@@ -1,0 +1,48 @@
+body {
+background-color: rgb(245, 216, 216);
+}
+
+
+#special {
+    font-size: 50px;
+}
+
+h1 {
+font-family: 'Fahkwang', sans-serif;
+    text-align: center;
+    text-decoration-color: white;
+}
+
+h2 {
+    font-family: 'Fahkwang', sans-serif;
+    font-style: oblique;
+    font-size:15px
+    font-kerning: 2px;
+}
+
+#tw {
+    font-family: 'Special Elite', cursive;
+}
+
+p {
+    text-align: center;
+font-family: 'Jost', sans-serif;
+}
+
+#smoll {
+    font-size: 10px;
+    width: 600px;
+
+}
+
+a {
+    text-align: center;
+font-family: 'Jost', sans-serif;
+}
+
+
+/* font-family: 'DM Serif Text', serif;
+font-family: 'Fahkwang', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Urbanist', sans-serif; */
