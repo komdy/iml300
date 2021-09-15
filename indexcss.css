@@ -1,14 +1,44 @@
 body {
 background-color: rgb(245, 216, 216);
+
+}
+
+.column {
+  float: left;
+  width: 40%;
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 200px;
+  border-style: dotted;
+  border-color: skyblue;
+}
+
+/* Clear floats after the columns */
+
+
+.column2 {
+  float: right;
+  width: 38%;
+  margin-right: 100px;
+  margin-top: 100px;
+    background-color: white;
+  margin-left: 100px;
+  margin-bottom: 200px;
+  border-style: dotted;
+  border-color: skyblue;
+  
 }
 
 
 #special {
-    font-size: 50px;
+    font-size: 80px;
+    margin-bottom: -5px;
+    margin-top: -5px;
 }
 
 h1 {
-font-family: 'Fahkwang', sans-serif;
+font-family:'DM Serif Text', serif;
     text-align: center;
     text-decoration-color: white;
 }
@@ -22,6 +52,7 @@ h2 {
 
 #tw {
     font-family: 'Special Elite', cursive;
+    font-size: 34px;
 }
 
 p {
@@ -38,7 +69,9 @@ font-family: 'Jost', sans-serif;
 a {
     text-align: center;
 font-family: 'Jost', sans-serif;
+background-color: #FFF5EE	;
 }
+
 
 
 /* font-family: 'DM Serif Text', serif;
@@ -46,3 +79,4 @@ font-family: 'Fahkwang', sans-serif;
 font-family: 'Jost', sans-serif;
 font-family: 'Special Elite', cursive;
 font-family: 'Urbanist', sans-serif; */
+
