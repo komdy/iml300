@@ -2,7 +2,7 @@
 
 ![demo](https://github.com/komdy/iml300/blob/main/project-1/asset/200.gif)
 
-[Project 1 name](http://komdy.github.io/iml300/project-1) is an interactive web experience focused on the idea of alienation of labor. Alienation is the phenomenon where we feel isolated in society and see the objects we consumed as removed from the laborers who created them. 
+[Alienation](http://komdy.github.io/iml300/project-1) is an interactive web experience focused on the idea of alienation of labor. Alienation is the phenomenon where we feel isolated in society and see the objects we consumed as removed from the laborers who created them. 
 
 ### Description
 
