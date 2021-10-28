@@ -1,6 +1,6 @@
 # Scream 
 
-![demo](https://github.com/komdy/iml300/blob/main/project-1/asset/scream.gif)
+![demo](https://github.com/komdy/iml300/blob/main/scream.gif)
 
 [Scream](https://editor.p5js.org/mendykon/sketches/n4fymCdI0) is an interactive web experience that screams at the viewer when they type the words "scream."
 
